@@ -15,6 +15,7 @@ if (process.argv.length < 4) {
 inputDir = process.argv[2]
 outputDir = process.argv[3]
 
+
 var sizeSumTotal = 0;
 
 if (!fs.existsSync(outputDir)) {
